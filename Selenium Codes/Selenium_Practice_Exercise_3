@@ -1,0 +1,39 @@
+package selenium_week_1_nishchay;
+import java.util.*;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class Selenium_Practice_Exercise_3 {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the name of the browser: ");
+		String browserName = sc.nextLine();
+		
+		if(browserName.equalsIgnoreCase("chrome"))
+		{
+			WebDriver driver = new ChromeDriver();
+			driver.manage().window().maximize();
+			driver.get("https://www.facebook.com/");	
+		}
+		
+		else if(browserName.equalsIgnoreCase("edge"))
+		{
+			WebDriver driver = new EdgeDriver();
+			driver.manage().window().maximize();
+			driver.get("https://www.facebook.com/");
+		}
+		else 
+		{
+			System.out.println("Invalid Browser");
+		}
+		
+		sc.close();
+	}
+
+}
