@@ -1,0 +1,42 @@
+# Hackathon Project
+
+# Problem Statement : Identify Courses
+
+# Group Number : 4
+
+# Group Members : Nishchay Gupta, Anshu Kumar, Vishnu Saini, Sangam
+
+# Tech Stack used : Java, Selenium, TestNG
+
+# Key Concepts used : Page Factory, OOPS concept, Collection, Actions class, Javascript Executor, Waits (Implicit and Explicit), Thread, Exception Handling (Try-Catch Block)
+
+# Utilities: Screenshot, Extent Report
+
+# Updated Automation Work Flow
+
+1. Navigate to the Coursera Website
+2. Search for "web development courses" in the Search Box and sort according to Level:Beginners & Language:English
+3. Extract the first 2 Course Names, Total Learning Hours & Ratings
+4. Click on the "Explore" button
+5. Look for "Language Learning" in the "Explore" button
+6. Extract all the languages and different levels with their total count & display them in the console
+7. In the Home Page, go to "For Businesses" (earlier it was "For Enterprise", website got updated)
+8. Look for the "Find out how Coursera powers high-impact skill development" form and fill it with any one input invalid (earlier it was "Ready to transform" form, website got updated)
+9. Capture the screenshot of the error message & display the error message in the console
+
+
+# Individual Member Contribution
+
+1. Nishchay: Explore class, BasePage class, BaseClass class, TC_002_Explore class,  Functional Testing Excel File
+2. Vishnu: IdentifyCourses class, TC_001_IdentifyCourses, Functional Testing Excel File
+3. Anshu: ForBusiness class, TC_003_ForBusiness, Functional Testing Excel File
+4. Sangam : Screenshot, Extent Report, Functional Testing Excel File
+
+
+# Challenges faced : 
+
+While accessing the Language Learning option in the Explore button, French language under the Popular Skills list is not being printed in the console. 
+But it is getting stored in the list.
+
+
+
