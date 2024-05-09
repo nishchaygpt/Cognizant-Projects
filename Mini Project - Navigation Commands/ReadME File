@@ -1,0 +1,35 @@
+# Mini Project
+
+# Problem Statement : Navigation Commands
+
+# Author: Nishchay Gupta
+
+# Tech Stack used: Java, Selenium
+
+# Key Concepts used : Navigation Commands, Implicit Wait, Explicit Wait, Thread, Handling popup, Javascript Executor
+
+# Updated Automation Work Flow
+
+1. Launch the browser
+2. Enter the URL : “https://google.com” 
+3. Enter the value in Search Box "Orange HRM demo” and press Enter
+4. Search Results will be displayed
+5. Click on Back arrow button and verify if the Google Page appeared 
+6. Click on Forward arrow button and verify if it is redirected to the results page 
+7. Navigate to the page : "https://www.orangehrm.com/" 
+8. Click on "Contact Sales" and fill the all the fields as below 
+ - Your full Name: Vikram Rathode 
+ - Phone Number: 1234567890 
+ - JobTitle: Fresher 
+ - Country: India 
+ - No of Employees: 11-15 
+ - Business Email: rathodeitsolutions.test@test.com 
+9. Do not enter any message in the “your message” text box
+10. Select Check box (reCAPTCHA) and click "Submit" button. 
+11. Take Screenshot of the page. 
+12. Enter any message in the “your message” text box and Click "Submit" button 
+
+# Challenges Faced
+
+Automating the reCAPTCHA is an unethical practice as it defies its purpose. While filling out the reCAPTCHA manually, sometimes it got filled without selecting the tiles according to the asked prompt like "Bridges", "Cars", "Traffic Lights",etc. and sometimes it did not.
+Hence, because of the above stated reason, the script runs out of time and throws exception.
