@@ -1,0 +1,45 @@
+package selenium_week_3_apache_poi;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.*;
+
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+
+public class Ex_3_Read_Full_Excel {
+
+	public static void main(String[] args) throws EncryptedDocumentException, IOException {
+		// TODO Auto-generated method stub"
+		InputStream fin = new FileInputStream("C:\\Users\\2317858\\git\\workspace\\selenium_web_driver_nishchay\\src\\test\\java\\selenium_week_3\\2317858_Nishchay_Gupta_Functional_Testing_ICT_Submission.xlsx");
+		Workbook wb = WorkbookFactory.create(fin); //EncryptedDocumentException is thrown after writing: create(fin)
+		
+		Sheet sheet = wb.getSheet("TEST SCENARIO");
+		
+		Iterator<Row> rowIterator = sheet.iterator();
+		
+		while(rowIterator.hasNext())
+		{
+			Row row1 = rowIterator.next();
+			Iterator<Cell> cellIterator = row1.iterator();
+			
+			while(cellIterator.hasNext())
+			{
+				Cell cell1 = cellIterator.next();
+				System.out.println(cell1.getStringCellValue() + " -- ");
+			}
+			System.out.println();
+			
+		}
+		wb.close();
+		
+		
+		
+	}
+
+}
