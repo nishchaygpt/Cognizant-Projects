@@ -1,0 +1,54 @@
+package selenium_week_1_nishchay;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Selenium_Practice_Exercise_1 {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+		ChromeDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.facebook.com/");
+		
+		Thread.sleep(3000);
+		
+		//Accessing and filling the email Id
+		WebElement email = driver.findElement(By.id("email"));
+		email.sendKeys("hellonishchay@gmail.com");
+		
+		//Printing the tag name and the attribute value
+		System.out.println("Email's Tag Name : " + email.getTagName());
+		System.out.println("Class Name: " + email.getAttribute("class"));
+		
+		//Accessing and filling the password
+		WebElement password = driver.findElement(By.id("pass"));
+		password.sendKeys("hello@world");
+		
+		//Accessing the login button
+		WebElement loginButton = driver.findElement(By.name("login"));
+		
+		//Accessing the forgotten password
+		WebElement forgotPasswordbutton = driver.findElement(By.linkText("Forgotten password?"));
+		
+		//Printing the tag name and the attribute value
+		System.out.println("\nForgotten Password Tag Name:" + forgotPasswordbutton.getTagName());
+		System.out.println("Hyperlink of Forgotten Password: " + forgotPasswordbutton.getAttribute("href"));
+		
+		//Accessing the Facebook Logo
+		WebElement facebookLogo = driver.findElement(By.className("fb_logo _8ilh img"));
+		
+		//Accessing the Create New Account Button
+		WebElement createNewAccountButton = driver.findElement(By.className("_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy"));
+		
+		//Accessing the Create a New Page
+		WebElement createAPage = driver.findElement(By.partialLinkText("Create Page"));
+		
+		//Accessing the show more languages button
+		WebElement showMoreLanguagesButton = driver.findElement(By.className("_42ft _4jy0 _517i _517h _51sy"));
+		
+	}
+
+}
