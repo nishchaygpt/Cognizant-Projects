@@ -12,8 +12,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-//Author: Vishnu
-
 //COURSERA Home Page
 
 public class IdentifyCourses extends BasePage {
