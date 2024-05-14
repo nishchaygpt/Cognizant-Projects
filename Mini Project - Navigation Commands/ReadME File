@@ -29,6 +29,11 @@
 11. Take Screenshot of the page. 
 12. Enter any message in the “your message” text box and Click "Submit" button 
 
+# Automation Concepts Covered:
+
+- Navigation to one step to another 
+- Handling Web elements 
+
 # Challenges Faced
 
 Automating the reCAPTCHA is an unethical practice as it defies its purpose. While filling out the reCAPTCHA manually, sometimes it got filled without selecting the tiles according to the asked prompt like "Bridges", "Cars", "Traffic Lights",etc. and sometimes it did not.
