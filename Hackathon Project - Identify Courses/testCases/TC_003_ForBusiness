@@ -8,8 +8,6 @@ import pageObject.ForBusiness;
 import testBase.BaseClass;
 import utility.ScreenShots;
 
-//Author: Anshu
-
 public class TC_003_ForBusiness extends BaseClass {
 	
 	@Test()
