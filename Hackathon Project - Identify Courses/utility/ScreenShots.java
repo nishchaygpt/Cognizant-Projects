@@ -9,8 +9,6 @@ import org.openqa.selenium.WebDriver;
 
 import pageObject.BasePage;
 
-//Author: Sangam
-
 public class ScreenShots extends BasePage {
 	public ScreenShots(WebDriver driver) {
 		super(driver);
