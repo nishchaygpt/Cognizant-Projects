@@ -110,7 +110,7 @@ public class navigationCommands {
 		submitButton1.click();
 		System.out.println("\nContact Sales Button is clicked...  ");
 
-        // Taking the Screenshot of the error message
+                // Taking the Screenshot of the error message
 		TakesScreenshot ts = ((TakesScreenshot) driver);
 
 		File source = ts.getScreenshotAs(OutputType.FILE);
