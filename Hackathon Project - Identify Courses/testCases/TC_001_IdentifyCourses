@@ -5,8 +5,6 @@ import org.testng.annotations.Test;
 import pageObject.IdentifyCourses;
 import testBase.BaseClass;
 
-//Author: Nishchay 
-
 public class TC_001_IdentifyCourses extends BaseClass {
 
 	@Test
