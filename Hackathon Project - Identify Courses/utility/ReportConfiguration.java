@@ -10,8 +10,6 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-//Author: Sangam
-
 //ExtentReport is an HTML reporting library 
 //Can be integrated with Selenium WebDriver
 
