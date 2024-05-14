@@ -20,6 +20,14 @@
 8. Look for the "Find out how Coursera powers high-impact skill development" form and fill it with any one input invalid (earlier it was "Ready to transform" form, website got updated)
 9. Capture the screenshot of the error message & display the error message in the console
 
+#Automation Concepts Covered : 
+
+- Extracting multiple drop down list items & storing them in collections
+- Navigation Commands
+- Filling the form
+- Capturing the warning message
+- Scrolling down in web page
+
 # Challenges faced : 
 
 While accessing the Language Learning option in the Explore button, French language under the Popular Skills list is not being printed in the console. 
