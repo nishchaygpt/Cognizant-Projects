@@ -8,7 +8,7 @@
 
 # Utilities: Screenshot, Extent Report
 
-# Updated Automation Work Flow
+# Automation Work Flow
 
 1. Navigate to the Coursera Website
 2. Search for "web development courses" in the Search Box and sort according to Level:Beginners & Language:English
@@ -26,7 +26,7 @@
 - Navigation Commands
 - Filling the form
 - Capturing the warning message
-- Scrolling down in web page
+- Scrolling down in the web page
 
 # Challenges faced : 
 
