@@ -8,6 +8,8 @@
 
 # Key Concepts used : Navigation Commands, Implicit Wait, Explicit Wait, Thread, Handling popup, Javascript Executor
 
+# Utilities : Screenshot
+
 # Automation Work Flow
 
 1. Launch the browser
