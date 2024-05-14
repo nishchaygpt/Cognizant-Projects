@@ -2,10 +2,6 @@
 
 # Problem Statement : Identify Courses
 
-# Group Number : 4
-
-# Group Members : Nishchay Gupta, Anshu Kumar, Vishnu Saini, Sangam
-
 # Tech Stack used : Java, Selenium, TestNG
 
 # Key Concepts used : Page Factory, OOPS concept, Collection, Actions class, Javascript Executor, Waits (Implicit and Explicit), Thread, Exception Handling (Try-Catch Block)
@@ -23,15 +19,6 @@
 7. In the Home Page, go to "For Businesses" (earlier it was "For Enterprise", website got updated)
 8. Look for the "Find out how Coursera powers high-impact skill development" form and fill it with any one input invalid (earlier it was "Ready to transform" form, website got updated)
 9. Capture the screenshot of the error message & display the error message in the console
-
-
-# Individual Member Contribution
-
-1. Nishchay: Explore class, BasePage class, BaseClass class, TC_002_Explore class,  Functional Testing Excel File
-2. Vishnu: IdentifyCourses class, TC_001_IdentifyCourses, Functional Testing Excel File
-3. Anshu: ForBusiness class, TC_003_ForBusiness, Functional Testing Excel File
-4. Sangam : Screenshot, Extent Report, Functional Testing Excel File
-
 
 # Challenges faced : 
 
