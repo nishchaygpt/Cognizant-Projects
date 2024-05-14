@@ -8,7 +8,7 @@
 
 # Key Concepts used : Navigation Commands, Implicit Wait, Explicit Wait, Thread, Handling popup, Javascript Executor
 
-# Updated Automation Work Flow
+# Automation Work Flow
 
 1. Launch the browser
 2. Enter the URL : “https://google.com” 
