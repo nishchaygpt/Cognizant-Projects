@@ -8,10 +8,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
-//Author: Nishchay 
-
-
 //Demonstrating the choice of browser to initiate the automation
+
 public class BaseClass {
 	public static WebDriver driver;
 	public int choice;
