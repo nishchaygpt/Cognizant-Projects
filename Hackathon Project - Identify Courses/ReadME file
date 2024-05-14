@@ -20,7 +20,7 @@
 8. Look for the "Find out how Coursera powers high-impact skill development" form and fill it with any one input invalid (earlier it was "Ready to transform" form, website got updated)
 9. Capture the screenshot of the error message & display the error message in the console
 
-#Automation Concepts Covered : 
+# Automation Concepts Covered : 
 
 - Extracting multiple drop down list items & storing them in collections
 - Navigation Commands
