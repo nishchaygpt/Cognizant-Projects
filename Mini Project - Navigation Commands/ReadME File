@@ -6,7 +6,7 @@
 
 # Tech Stack used: Java, Selenium
 
-# Key Concepts used : Navigation Commands, Exception Hanndling (Try-Catch Block), Implicit Wait, Explicit Wait, Thread, Handling popup, Javascript Executor
+# Key Concepts used : Navigation Commands, Exception Handling (Try-Catch Block), Implicit Wait, Explicit Wait, Thread, Handling popup, Javascript Executor
 
 # Utilities : Screenshot
 
